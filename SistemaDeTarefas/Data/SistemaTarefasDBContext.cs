@@ -3,9 +3,9 @@ using SistemaDeTarefas.Models;
 
 namespace SistemaDeTarefas.Data
 {
-    public class SiatemaTarefasDBContext : DbContext
+    public class SistemaTarefasDBContext : DbContext
     {
-        public SiatemaTarefasDBContext(DbContextOptions<SiatemaTarefasDBContext> options)
+        public SistemaTarefasDBContext(DbContextOptions<SistemaTarefasDBContext> options)
             : base(options)
         {
         }
